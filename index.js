@@ -10,7 +10,6 @@ function currentLine(line) {
     return "The line is currently empty.";
   }
   //i used .push so that it can add new items at the end of an array and returns
-  var linename = [];
   for (var i = 0; i < line.length; i++) {
     linename.push( i+1 + ". " + line[i]);
   }
