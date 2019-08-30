@@ -11,10 +11,10 @@ function currentLine(line) {
   //i used .push so that it can add new items at the end of an array and returns
   var linename = [];
   for (var i = 0; i < line.length; i++) {
-    linename.push( " " + i + 1 + ". " + line[i] );
+    linename.push( i+1 + ". " + line[i]);
   }
   return("The line is currently: " + linename + " " );
-  return "The line is currently: " + linename.join (" , ") + " ";
+  return "The line is currently: " + linename.join (", ") + " ";
 }
 //nowServing function
 // ! mean not ="removed .length"
