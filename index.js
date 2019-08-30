@@ -5,6 +5,7 @@
 var customers = [];
 //create a current line function using if and for ; create a variable
 function currentLine(line) {
+  var linename = [];
   if(!line.length) {
     return "The line is currently empty.";
   }
