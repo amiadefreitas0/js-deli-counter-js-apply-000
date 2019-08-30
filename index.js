@@ -13,16 +13,16 @@ function currentLine(line) {
   for (var i = 0; i < line.length; i++) {
     linename.push(i + 1 + " " + line[i]);
   }
-  console.log("The line is currently: " + linename);
+  return("The line is currently: " + linename);
   return "The line is currently: " + linename.join(", ");
 }
 //nowServing function
 // ! mean not ="removed .length"
 function nowServing(serving) {
   if (!serving.length) {
-    console.log("There is nobody waiting to be served!");
+    return("There is nobody waiting to be served!");
   } else {
-    console.log("Currently serving " + serving.shift());
+    return("Currently serving " + serving.shift());
   }
 }
 //take a number function
