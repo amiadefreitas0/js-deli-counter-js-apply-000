@@ -14,7 +14,7 @@ function currentLine(line) {
     linename.push( i+1 + ". " + line[i]);
   }
   return("The line is currently: " + linename + " " );
-  return "The line is currently: " + linename.join (", ") + " ";
+  return "The line is currently: " + " " + linename.join (", ") + " ";
 }
 //nowServing function
 // ! mean not ="removed .length"
