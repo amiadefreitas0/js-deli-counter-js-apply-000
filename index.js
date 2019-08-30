@@ -3,7 +3,7 @@
 //length is the number of elements in your array
 //console log allows you to put it in the console
 var customers = [];
-//create a current line function using if and for ; create a variable 
+//create a current line function using if and for ; create a variable
 function currentLine(line) {
   if(!line.length) {
     return "The line is currently empty.";
@@ -36,7 +36,7 @@ function takeANumber(numberofpeople, name) {
       numberofpeople.length +
       " in line."
   );
- 
+
 }
 
 takeANumber(customers, "Ada");
@@ -52,9 +52,3 @@ currentLine(customers);
 nowServing(customers);
 currentLine(customers);
 nowServing(customers);
-
-
-
-
-
-
