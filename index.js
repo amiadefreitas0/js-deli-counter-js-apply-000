@@ -29,7 +29,7 @@ function nowServing(serving) {
 ///line is number of people
 function takeANumber(numberofpeople, name) {
   numberofpeople.push(name);
- console.log(
+ return (
     "Welcome, " +
       name +
       ". You are number " +
