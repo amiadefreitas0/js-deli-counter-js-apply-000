@@ -2,14 +2,14 @@ var katzDeli = [];
 	var katzDeli = []; // At the beginning of the day,
 	//the deli is empty and is represented by an empty array
 	//<<<<<<<<<--------------- in the instructions <<<<<<
-	
+
 	function takeANumber(katzDeli, name) {
 	  katzDeli.push(`${name}`);
 	  return(`Welcome, ${name}. You are number ${katzDeli.length} in line.`);
 	}
-	
+
 	function takeANumber(katzDeliLine, nowServing) {
-	
+
 	function nowServing(katzDeli) {
 	  let i = 0;
 	  while (i < katzDeli.length) {
@@ -21,19 +21,19 @@ var katzDeli = [];
 	  else
 	  return (`Currently serving ${katzDeli.shift()}.`);
 	}
-	
+
 	// Build a function currentLine that returns the current line.
 	// For example, if katzDeliLine is currently ["Ada", "Grace"],
 	// currentLine(katzDeliLine) would return "The line is currently: 1. Ada 2. Grace".
 	// If there is nobody in line, it should return "The line is currently empty."
-	
-	
+
+
 	var line = [];
-	
-	
-	
-	
-	
+
+
+
+
+
 	function currentLine(katzDeli) {
 	  let i = 0;
 	  while (i < katzDeli.length) {
@@ -45,9 +45,9 @@ var katzDeli = [];
 	  } else
 	  return(`The line is currently:` + line);
 	}
-	
+
 	//WORKS:::::
-	
+
 	// function currentLine(katzDeli) {
 	//
 	//   for (let i = 0; i < katzDeli.length; i++) {
