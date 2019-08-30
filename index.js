@@ -22,7 +22,7 @@ function nowServing(serving) {
   if (!serving.length) {
     return("There is nobody waiting to be served!");
   } else {
-    return("Currently serving " + serving.shift());
+    return("Currently serving " + serving.shift() + ".");
   }
 }
 //take a number function
